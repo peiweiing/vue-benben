@@ -71,15 +71,16 @@
                     <router-view></router-view>
                 </div>
             </div> -->
+
+        </div>
+        
             <div class="tanchu F-xy">
                 <div class="heji FX-sb FY-c">
                     <div class="lcs">共{{shuliang}}件服务</div>
                     <div class="rcs">￥{{heji}}</div>
                 </div>
-                <div class="fukuan F-xy">立即付款</div>
+                <div class="fukuan F-xy" @click="fukuan()">立即付款</div>
             </div>
-
-        </div>
     </div>
 </template>
 <script>
@@ -108,6 +109,9 @@ export default {
         },
         allpingjia(){
             this.$router.push("/allpingjia")
+        },
+        fukuan(){
+            this.$router.push("/tijiao")
         }
     }
 }

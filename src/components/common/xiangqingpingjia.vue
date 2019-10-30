@@ -67,7 +67,7 @@ export default {
   margin-right: 0.1rem;
     font-size:0.15rem;
     color: #333;
-    font-family: PingFang-SC-Bold;
+    font-family: PingFang-SC-Medium;
 }
 .imgcs p{
   margin-left: 0.12rem;
@@ -76,8 +76,8 @@ export default {
   margin-left: 0.48rem;
 }
 .end{
-    font-size:0.12rem;
-    color: #666;
+    font-size:0.15rem;
+    color: #333;
     font-family: PingFang-SC-Medium;
 }
 .end p{

@@ -21,8 +21,10 @@
             </div>
             <div class="FX-sa dingdan">
                 <div class="imgcs" v-for="(v,i) in arra" :key="i">
-                    <img :src="v.img" alt="">
-                    <p>{{v.text}}</p>
+                    <router-link :to="v.url">
+                        <img :src="v.img" alt="">
+                        <p>{{v.text}}</p>
+                    </router-link>
                 </div>
             </div>
             <div class="div FX-sb" v-for="(v,i) in arrb" :key="i">
@@ -37,10 +39,10 @@ export default {
     data(){
         return{
             arra:[
-                {text:"待使用",img:"../../static/icon_daishiyong.png",url:""},
-                {text:"待评价",img:"../../static/icon_daipingjia.png",url:""},
-                {text:"已完成",img:"../../static/icon_yiwancheng.png",url:""},
-                {text:"退款",img:"../../static/icon_tukuan.png",url:""},
+                {text:"待使用",img:"../../static/icon_daishiyong.png",url:"/shop/he"},
+                {text:"待评价",img:"../../static/icon_daipingjia.png",url:"/shop/ping"},
+                {text:"已完成",img:"../../static/icon_yiwancheng.png",url:"/shop/wan"},
+                {text:"退款",img:"../../static/icon_tukuan.png",url:"/shop/tui"},
             ],
             arrb:[
                 {text:"会员",txt:">",img:"",url:""},
@@ -115,5 +117,7 @@ export default {
     color: #333;
     font-family: PingFang-SC-Bold;
 }
-
+/* .router-link-exact-active{
+    border-bottom: 2px solid #4adcdc;
+} */
 </style>

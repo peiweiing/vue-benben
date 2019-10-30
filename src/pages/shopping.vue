@@ -1,7 +1,7 @@
 <template>
     <div class="boxcs">
         <div class="head FX-sb FY-c">
-            <img src="static/nav_back.png" alt="">
+            <img @click="go()" src="static/nav_back.png" alt="">
             <p>订单详情</p>
             <p></p>
         </div>
@@ -19,6 +19,11 @@ export default {
             arra:[
                 {dianming:"小新蛋糕店",img:"../../static/img_shangpin@2x.png",mingzi:"巧克力蛋糕",shuliang:"1",zhuangtai:"待核销",danjia:"￥50.00"},
             ],
+        }
+    },
+    methods:{
+        go(){
+            this.$router.go(-1)
         }
     }
 }

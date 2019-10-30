@@ -11,6 +11,10 @@ export default {
 </script>
 
 <style>
+.router-link-active{
+	padding-bottom: 0.02rem;
+    border-bottom: 3px solid #4adcdc;
+}
 html{
 	font-size: 26.67vw;
 }

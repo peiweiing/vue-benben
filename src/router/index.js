@@ -9,11 +9,27 @@ import Shop from '../pages/shop.vue'
 import Shopping from '../pages/shopping.vue'
 
 
-
 import Tab from '@/components/common/tabbar'
 import Chen from '@/components/common/chengshi.vue'
-import Ding from '@/components/common/dingwei.vue'
+import Xq from '@/components/common/xiangqing'
+import Fw from '@/components/common/xiangqingfuwu'
+import Pj from '@/components/common/xiangqingpingjia'
+import Allpingjia from '@/components/common/allpingjia'
+import Tijiao from '@/components/common/tijiao'
 
+import Reone from '@/components/common/remaione'
+import Lone from '@/components/common/remai/lone'
+import Ltwo from '@/components/common/remai/ltwo'
+import Lthree from '@/components/common/remai/lthree'
+import Lfour from '@/components/common/remai/lfour'
+import Lfive from '@/components/common/remai/lfive'
+
+import Retwo from '@/components/common/remaitwo'
+import Rone from '@/components/common/remai/rone'
+import Rtwo from '@/components/common/remai/rtwo'
+import Rthree from '@/components/common/remai/rthree'
+import Rfour from '@/components/common/remai/rfour'
+import Rfive from '@/components/common/remai/rfive'
 
 
 import One from '@/components/fujin/classone'
@@ -30,25 +46,6 @@ import Ttwo from '@/components/tongcheng/classtwo'
 
 import Gone from '@/components/guanzhu/classone'
 import Gtwo from '@/components/guanzhu/classtwo'
-import Xq from '@/components/guanzhu/xiangqing'
-import Fw from '@/components/guanzhu/xiangqingfuwu'
-
-import Pj from '@/components/guanzhu/xiangqingpingjia'
-import Allpingjia from '@/components/guanzhu/allpingjia'
-// import Re from '@/components/guanzhu/remai'
-import Reone from '@/components/guanzhu/remaione'
-import Lone from '@/components/guanzhu/remai/lone'
-import Ltwo from '@/components/guanzhu/remai/ltwo'
-import Lthree from '@/components/guanzhu/remai/lthree'
-import Lfour from '@/components/guanzhu/remai/lfour'
-import Lfive from '@/components/guanzhu/remai/lfive'
-
-import Retwo from '@/components/guanzhu/remaitwo'
-import Rone from '@/components/guanzhu/remai/rone'
-import Rtwo from '@/components/guanzhu/remai/rtwo'
-import Rthree from '@/components/guanzhu/remai/rthree'
-import Rfour from '@/components/guanzhu/remai/rfour'
-import Rfive from '@/components/guanzhu/remai/rfive'
 
 
 import Quan from '@/components/my/shopquanbu'
@@ -73,11 +70,6 @@ export default new Router({
       path: '/chengshi',
       name: 'Chen',
       component: Chen
-    },
-    {
-      path: '/dingwei',
-      name: 'Ding',
-      component: Ding
     },
     {
       path: '/fujin',
@@ -169,6 +161,11 @@ export default new Router({
       path: '/allpingjia',
       name: 'Allpingjia',
       component: Allpingjia,
+    },
+    {
+      path: '/tijiao',
+      name: 'Tijiao',
+      component: Tijiao,
     },
 
 

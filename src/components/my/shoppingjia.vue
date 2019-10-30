@@ -1,6 +1,6 @@
 <template>
     <div class="boxcs">
-        <div class="divcs" v-for="(v,i) in arra" :key="i">
+        <div class="divcs" v-for="(v,i) in arra" :key="i" @click="shopping()">
             <div class="head FX-sb">
                 <p>{{v.dianming}}</p>
                 <span>{{v.zhuangtai}}</span>
@@ -47,6 +47,11 @@ export default {
                 {dianming:"小新蛋糕店",img:"../../static/img_shangpin.png",mingzi:"巧克力蛋糕",shuliang:"1",zhuangtai:"已评价",fuwu:"共一件服务",danjia:"￥50.00",heji:"￥50.00",},
                 {dianming:"小新蛋糕店",img:"../../static/img_shangpin.png",mingzi:"巧克力蛋糕",shuliang:"1",zhuangtai:"已评价",fuwu:"共一件服务",danjia:"￥50.00",heji:"￥50.00",},
             ],
+        }
+    },
+    methods:{
+        shopping(){
+            this.$router.push("/shopping")
         }
     }
 }
