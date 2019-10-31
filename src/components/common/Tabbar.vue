@@ -28,31 +28,31 @@ export default {
           name: "/tongcheng/tone",
           title: "同城",
           normal:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx.png",
-            // "static/icon_tongcheng.png",
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx.png",
+            "static/icon_tongcheng.png",
           active:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx2.png"
-            // "static/icon_tongcheng_pre.png"
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx2.png"
+            "static/icon_tongcheng_pre.png"
         },
         {
           name: "/guanzhu/gone",
           title: "关注",
           normal:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx.png",
-            // "static/icon_guanzhu.png",
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx.png",
+            "static/icon_guanzhu.png",
           active:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx2.png"
-            // "static/icon_guanzhu_pre.png"
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-xx2.png"
+            "static/icon_guanzhu_pre.png"
         },
         {
           name: "/my",
           title: "我的",
           normal:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-wd.png",
-            // "static/icon_yonghu.png",
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-wd.png",
+            "static/icon_yonghu.png",
           active:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-wd2.png"
-            // "static/icon_wode_pre.png"
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-wd2.png"
+            "static/icon_wode_pre.png"
         }
       ]
     };

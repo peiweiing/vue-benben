@@ -17,7 +17,7 @@ export default {
     data(){
         return{
             arra:[
-                {dianming:"小新蛋糕店",img:"../../static/img_shangpin@2x.png",mingzi:"巧克力蛋糕",shuliang:"1",zhuangtai:"待核销",danjia:"￥50.00"},
+                {dianming:"小新蛋糕店",img:"../../static/img_shangpin.png",mingzi:"巧克力蛋糕",shuliang:"1",zhuangtai:"待核销",danjia:"￥50.00"},
             ],
         }
     },
