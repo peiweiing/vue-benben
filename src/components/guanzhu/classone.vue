@@ -36,6 +36,9 @@ export default {
                 {text:"鸣人最爱的一乐拉面",fenshu:"4.7",dizhi:"铜山万达广场4楼",imgurl:"../../static/twox2.png",texturl:"../../static/onexin2.png",url:"/rechargemoney",km:"1.5km"},
                 {text:"鸣人最爱的一乐拉面",fenshu:"4.7",dizhi:"铜山万达广场4楼",imgurl:"../../static/twox2.png",texturl:"../../static/onexin2.png",url:"/moduleone",km:"1.5km"},
                 {text:"鸣人最爱的一乐拉面",fenshu:"4.7",dizhi:"铜山万达广场4楼",imgurl:"../../static/twox2.png",texturl:"../../static/onexin2.png",url:"/moduleone",km:"1.5km"},
+                {text:"鸣人最爱的一乐拉面",fenshu:"4.7",dizhi:"铜山万达广场4楼",imgurl:"../../static/twox2.png",texturl:"../../static/onexin2.png",url:"/moduleone",km:"1.5km"},
+                {text:"鸣人最爱的一乐拉面",fenshu:"4.7",dizhi:"铜山万达广场4楼",imgurl:"../../static/twox2.png",texturl:"../../static/onexin2.png",url:"/moduleone",km:"1.5km"},
+                {text:"鸣人最爱的一乐拉面",fenshu:"4.7",dizhi:"铜山万达广场4楼",imgurl:"../../static/twox2.png",texturl:"../../static/onexin2.png",url:"/moduleone",km:"1.5km"},
             ]
         }
     },

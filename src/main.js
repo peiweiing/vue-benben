@@ -7,12 +7,16 @@ import router from './router'
 import Mint from 'mint-ui'; 
 Vue.use(Mint); 
 
-import { PullRefresh, Icon} from 'vant';
-Vue.use(PullRefresh).use(Icon);
+// import { Toast } from 'vant'
+// import { PullRefresh, Icon} from 'vant';
+// Vue.use(PullRefresh).use(Icon).use(Toast);
 
 import Vant from 'vant';
 import 'vant/lib/index.css';
 Vue.use(Vant);
+
+import axios from 'axios'
+Vue.prototype.$axios= axios
 
 Vue.config.productionTip = false
 

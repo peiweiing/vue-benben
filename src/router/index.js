@@ -5,6 +5,9 @@ import Fujin from '../pages/fujin.vue'
 import Tongcheng from '../pages/tongcheng.vue'
 import Guanzhu from '../pages/guanzhu.vue'
 import My from '../pages/my.vue'
+import Login from '../pages/my/login'
+import Forget from '../pages/my/forget'
+import Register from '../pages/my/register'
 import Shop from '../pages/shop.vue'
 import Shopping from '../pages/shopping.vue'
 
@@ -47,6 +50,14 @@ import Ttwo from '@/components/tongcheng/classtwo'
 import Gone from '@/components/guanzhu/classone'
 import Gtwo from '@/components/guanzhu/classtwo'
 
+
+import Mymoney from '@/components/my/mymoney'
+import Myvip from '@/components/my/myvip'
+import Myset from '@/components/my/myset'
+import Guanyu from '@/components/my/guanyumy'
+import Shangjia from '@/components/my/shangjia'
+import Myxinxi from '@/components/my/myxinxi'
+import Myanquan from '@/components/my/myanquan'
 
 import Quan from '@/components/my/shopquanbu'
 import He from '@/components/my/shophexiao'
@@ -118,9 +129,9 @@ export default new Router({
               children:[
                 {path:"/reone/lone",name:"Lone",component:Lone},
                 {path:"/reone/ltwo",name:"Ltwo",component:Ltwo},
-                {path:"/reone/rthree",name:"Lthree",component:Lthree},
-                {path:"/reone/rfour",name:"Lfour",component:Lfour},
-                {path:"/reone/rfive",name:"Lfive",component:Lfive},
+                {path:"/reone/lthree",name:"Lthree",component:Lthree},
+                {path:"/reone/lfour",name:"Lfour",component:Lfour},
+                {path:"/reone/lfive",name:"Lfive",component:Lfive},
               ]
             },
             {path:"/fuwu/retwo",name:"Retwo",redirect:'/retwo/rone',component:Retwo,
@@ -173,6 +184,56 @@ export default new Router({
       path: '/my',
       name: 'My',
       component: My,
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login,
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register,
+    },
+    {
+      path: '/forget',
+      name: 'Forget',
+      component: Forget,
+    },
+    {
+      path: '/myvip',
+      name: 'Myvip',
+      component: Myvip,
+    },
+    {
+      path: '/shangjia',
+      name: 'Shangjia',
+      component: Shangjia,
+    },
+    {
+      path: '/mymoney',
+      name: 'Mymoney',
+      component: Mymoney,
+    },
+    {
+      path: '/guanyu',
+      name: 'Guanyu',
+      component: Guanyu,
+    },
+    {
+      path: '/myset',
+      name: 'Myset',
+      component: Myset,
+    },
+    {
+      path: '/myxinxi',
+      name: 'Myxinxi',
+      component: Myxinxi,
+    },
+    {
+      path: '/myanquan',
+      name: 'Myanquan',
+      component: Myanquan,
     },
     {
       path: '/shop',

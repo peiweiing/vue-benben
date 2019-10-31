@@ -6,7 +6,7 @@
                 <p>我的</p>
                 <img src="/static/xiaoxi1.png" alt="">
             </div>
-            <div class="FX-sb FY-c">
+            <div class="FX-sb FY-c" @click="login()">
                 <div class="FY-c">
                     <img src="/static/user.png" alt="">
                     <p class="topp">是小新啊</p>
@@ -27,9 +27,13 @@
                     </router-link>
                 </div>
             </div>
-            <div class="div FX-sb" v-for="(v,i) in arrb" :key="i">
-                <p>{{v.text}}</p>
-                <p class="pcs">{{v.txt}}</p>
+            <div v-for="(v,i) in arrb" :key="i">
+                <router-link :to="v.url">
+                    <div class="div FX-sb" >
+                        <p>{{v.text}}</p>
+                        <p class="pcs">{{v.txt}}</p>
+                    </div>
+                </router-link>
             </div>
         </div>
     </div>
@@ -45,17 +49,20 @@ export default {
                 {text:"退款",img:"../../static/icon_tukuan.png",url:"/shop/tui"},
             ],
             arrb:[
-                {text:"会员",txt:">",img:"",url:""},
-                {text:"商家入口",txt:">",img:"",url:""},
-                {text:"我的钱包",txt:">",img:"",url:""},
-                {text:"关于我们",txt:">",img:"",url:""},
-                {text:"设置",txt:">",img:"",url:""},
+                {text:"会员",txt:">",url:"myvip"},
+                {text:"商家入口",txt:">",url:"shangjia"},
+                {text:"我的钱包",txt:">",url:"mymoney"},
+                {text:"关于我们",txt:">",url:"guanyu"},
+                {text:"设置",txt:">",url:"myset"},
             ],
         }
     },
     methods:{
         digndan(){
             this.$router.push("/shop")
+        },
+        login(){
+            this.$router.push('/login')
         }
     }
 }

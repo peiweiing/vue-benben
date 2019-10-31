@@ -5,6 +5,7 @@
           <img :src="image">
         </van-swipe-item>
       </van-swipe>
+
     </div>
 </template>
 
@@ -32,7 +33,14 @@ export default {
 }
 </script>
 <style scoped>
+.swiper{
+    border-radius: 10px;
+}
+.swiper van-swiper{
+    border-radius: 10px;
+}
 img{
-    border-radius: 12px;
+  width: 100%;
+    border-radius: 10px;
 }
 </style>

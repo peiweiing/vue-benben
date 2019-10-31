@@ -18,11 +18,11 @@ export default {
           name: "/fujin/one",
           title: "附近",
           normal:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-fx2.png",
-            // "static/icon_fujin.png",
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-fx2.png",
+            "static/icon_fujin.png",
           active:
-            "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-fx.png"
-            // "static/icon_fujin_pre.png"
+            // "http://sucai.suoluomei.cn/sucai_zs/images/20190910093117-fx.png"
+            "static/icon_fujin_pre.png"
         },
         {
           name: "/tongcheng/tone",
